@@ -7,7 +7,7 @@ set_site_information(
     description="Balance chemistry reactions.",
     sources="Thanks to the Drafter docs and my study group.",
     planning=["plan.pdf", "design.pdf"],
-    links=["https://github.com/creeekchub/your-repository"]
+    links=["https://github.com/creekchub/stoich-helper"]
 )
 
 @dataclass
