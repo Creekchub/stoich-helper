@@ -5,6 +5,8 @@ set_website_title("Stoichiometry")
 set_site_information(
     author="Aaron",
     description="Balance chemistry reactions.",
+    sources="Thanks to the Drafter docs and my study group.",
+    planning=["plan.pdf", "design.pdf"],
     links=["https://github.com/creeekchub/your-repository"]
 )
 
