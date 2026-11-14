@@ -48,13 +48,13 @@ def index(state: State) -> Page:
         "\n",
         change_text_size(change_color(Header("THE \u2728 STOICHIOMETER \u2728", style_text_align = "center"), "rgb(44, 40, 222)"), 22),
         "\n",
-        change_background_color(Row(
+        (Row(
         Div("Reactant\n", TextBox("reactA"),),
         Div("Reactant\n", TextBox("reactB"),),
         Div("Product\n", TextBox("prodA"),),
         Div("Product\n", TextBox("prodB"),),
         state.error,
-            ), "rgb(117, 118, 190)"),
+            ),
         "\n",
         Button("Balance It", "balance"),
         "\n\n\n",
