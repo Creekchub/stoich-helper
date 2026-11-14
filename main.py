@@ -48,7 +48,7 @@ def index(state: State) -> Page:
         "\n",
         change_text_size(change_color(Header("THE \u2728 STOICHIOMETER \u2728", style_text_align = "center"), "rgb(44, 40, 222)"), 22),
         "\n",
-        (Row(
+        Row(
         Div("Reactant\n", TextBox("reactA"),),
         Div("Reactant\n", TextBox("reactB"),),
         Div("Product\n", TextBox("prodA"),),
