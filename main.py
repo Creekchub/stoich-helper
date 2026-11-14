@@ -3,6 +3,16 @@ from dataclasses import dataclass
 from chempy import balance_stoichiometry
 from bakery import assert_equal
 
+set_website_title("Stoichiometer")
+set_site_information(
+    author="Aaron",
+    description="Help students who understand stoichiometry balance difficult or tedious reactions quickly.",
+    sources="Shoutout drafter and chempy",
+    planning=["selection.pdf", "design.pdf"],
+    links=["https://github.com/creekchub/stoich-helper"]
+)
+hide_debug_information()
+set_website_framed(False)
 #subscripts = [₀,₁,₂,₃,₄,₅,₆,₇,₈,₉]
 #numbers = ["1","2","3","4","5","6","7","8","9"]
 
