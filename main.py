@@ -7,7 +7,6 @@ set_site_information(
     links=["https://github.com/creekchub/stoich-helper"]
 )
 hide_debug_information()
-set_website_framed(False)
 
 from drafter import *
 from dataclasses import dataclass
