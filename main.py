@@ -1,3 +1,14 @@
+set_website_title("Stoichiometer")
+set_site_information(
+    author="Aaron",
+    description="Help students who understand stoichiometry balance difficult or tedious reactions quickly.",
+    sources="Shoutout drafter and chempy",
+    planning=["selection.pdf", "design.pdf"],
+    links=["https://github.com/creekchub/stoich-helper"]
+)
+hide_debug_information()
+set_website_framed(False)
+
 from drafter import *
 from dataclasses import dataclass
 from chempy import balance_stoichiometry
