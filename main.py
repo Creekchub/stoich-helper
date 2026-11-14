@@ -12,7 +12,7 @@ set_site_information(
     links=["https://github.com/creekchub/stoich-helper"]
 )
 hide_debug_information()
-set_website_framed(False)
+set_website_framed(True)
 
 #subscripts = [₀,₁,₂,₃,₄,₅,₆,₇,₈,₉]
 #numbers = ["1","2","3","4","5","6","7","8","9"]
