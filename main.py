@@ -1,3 +1,8 @@
+from drafter import *
+from dataclasses import dataclass
+from chempy import balance_stoichiometry
+from bakery import assert_equal
+
 set_website_title("Stoichiometer")
 set_site_information(
     author="Aaron",
@@ -8,11 +13,6 @@ set_site_information(
 )
 hide_debug_information()
 set_website_framed(False)
-
-from drafter import *
-from dataclasses import dataclass
-from chempy import balance_stoichiometry
-from bakery import assert_equal
 
 #subscripts = [₀,₁,₂,₃,₄,₅,₆,₇,₈,₉]
 #numbers = ["1","2","3","4","5","6","7","8","9"]
